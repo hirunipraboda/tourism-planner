@@ -1,6 +1,6 @@
-# NOVA - AI-Powered Smart Tourism Platform
+# TourLink - AI-Powered Smart Tourism Platform
 
-NOVA is a full-stack smart tourism platform that helps tourists discover destinations, create personalized trips, generate AI-powered itineraries using a four-agent workflow, manage bookings, and explore travel recommendations.
+TourLink is a full-stack smart tourism platform that helps tourists discover destinations, create personalized trips, generate AI-powered itineraries using a four-agent workflow, manage bookings, and explore travel recommendations.
 
 The platform integrates a React web application, a Flutter mobile application, an ASP.NET Core REST API, PostgreSQL, and an Agentic AI subsystem to deliver an integrated tourism planning experience.
 
