@@ -20,7 +20,6 @@ The following components are deployed and accessible online.
 | **PostgreSQL Database** | Supabase PostgreSQL | Hosted on Supabase; credentials and connection details are kept private |
 | **Flutter Mobile Application** | Android mobile application | See the APK installation instructions below |
 
-> **Note:** Replace the example URLs with the actual URLs from your hosting providers. The health-check URL is valid only if the backend implements that endpoint. Do not expose database credentials or private service configuration.
 
 ---
 
