@@ -121,41 +121,41 @@ The ASP.NET Core Web API connects to the database using Entity Framework Core an
 
 The database stores application information, including:
 
-User accounts and related information.
+- User accounts and related information.
 
-Destinations and tourist attractions.
+- Destinations and tourist attractions.
 
-Trips and itinerary activities.
+- Trips and itinerary activities.
 
-Bookings and related records.
+- Bookings and related records.
 
-Other application data required by the platform.
+- Other application data required by the platform.
 
 ### Database Configuration
 
-Access the NOVA project in the Supabase Dashboard.
+- Access the NOVA project in the Supabase Dashboard.
 
-Obtain the PostgreSQL connection details from the project's database connection settings.
+- Obtain the PostgreSQL connection details from the project's database connection settings.
 
-Configure the database connection string in the backend's environment variables or local development configuration.
+- Configure the database connection string in the backend's environment variables or local development configuration.
 
-Apply the required Entity Framework Core migrations when initializing or updating the database schema.
+- Apply the required Entity Framework Core migrations when initializing or updating the database schema.
 
-Run the backend and verify that it can connect to the Supabase PostgreSQL database.
+- Run the backend and verify that it can connect to the Supabase PostgreSQL database.
 
 ### Database Security
 
-Keep database credentials and connection strings private.
+- Keep database credentials and connection strings private.
 
-Never commit production credentials to GitHub.
+- Never commit production credentials to GitHub.
 
-Use environment variables or hosting-provider secrets to configure database access.
+- Use environment variables or hosting-provider secrets to configure database access.
 
-Restrict database access according to the application's security requirements.
+- Restrict database access according to the application's security requirements.
 
-Database provider: Supabase PostgreSQL
-ORM: Entity Framework Core
-PostgreSQL provider: Npgsql
+- **Database provider:** Supabase PostgreSQL
+- **ORM:** Entity Framework Core
+- **PostgreSQL provider:** Npgsql
 
 ---
 ## 🚀 Running the Application Locally
