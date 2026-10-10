@@ -230,19 +230,16 @@ Typical configuration values may include:
 
 ```env
 # Backend
-ConnectionStrings__DefaultConnection=YOUR_POSTGRESQL_CONNECTION_STRING
+ConnectionStrings__DefaultConnection=postgresql://postgres:[YOUR-PASSWORD]@db.acdounmnuabhqxfmjjhm.supabase.co:5432/postgres
 Jwt__Key=YOUR_JWT_SECRET
 
-# AI service (only if deployed separately)
-AgenticAI__BaseUrl=YOUR_AI_AGENT_SERVICE_URL
+# AI service 
+AgenticAI__BaseUrl=https://nova-agentic-ai-f4im.onrender.com
 
 # Frontend
-VITE_API_BASE_URL=YOUR_BACKEND_API_URL
+VITE_API_BASE_URL=https://tourism-planner-frontend.onrender.com
 ```
 
-These are example configuration names. Confirm that they match the actual configuration keys used by your code.
-
-**Security:** Never commit real passwords, database connection strings, JWT secrets, or AI provider API keys to GitHub. Use a local environment file excluded through `.gitignore` and configure production secrets through the hosting platform.
 
 ---
 
@@ -293,17 +290,9 @@ The generated APK is typically located at:
 mobile/build/app/outputs/flutter-apk/app-release.apk
 ```
 
-Distribute the APK using your approved hosting or file-sharing method and add the download link here:
-
-**Android APK:** `YOUR-APK-DOWNLOAD-URL`
 
 ---
 
-## 👥 Team Contributions
-
-Document each team member's primary business component, backend and database work, frontend or mobile implementation, testing, and individual Agentic AI contribution.
-
-Update this section with the actual team members and their contributions.
 
 ---
 
@@ -316,15 +305,13 @@ Update this section with the actual team members and their contributions.
 - Controlled AI tool access and validation of AI-generated outputs.
 - Appropriate error handling and logging.
 
-Document only the security controls implemented and verified in the application.
+
 
 ---
 
 ## 🤖 AI Usage Declaration
 
 AI tools were used during development where applicable. All AI-assisted code, documentation, tests, and designs must be reviewed, tested, and understood by the project team.
-
-The team is responsible for declaring AI usage in accordance with the assignment requirements.
 
 ---
 
