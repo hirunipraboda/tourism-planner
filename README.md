@@ -112,7 +112,53 @@ The orchestration process coordinates destination research, route optimization, 
 The AI subsystem is integrated with the application backend so that the web and mobile clients can access AI-powered functionality through the appropriate backend APIs.
 
 ---
+## 🗄️ Database — Supabase PostgreSQL
 
+NOVA uses PostgreSQL hosted on Supabase as its primary relational database.
+
+The ASP.NET Core Web API connects to the database using Entity Framework Core and the Npgsql PostgreSQL provider.
+
+### Database Responsibilities
+
+The database stores application information, including:
+
+User accounts and related information.
+
+Destinations and tourist attractions.
+
+Trips and itinerary activities.
+
+Bookings and related records.
+
+Other application data required by the platform.
+
+### Database Configuration
+
+Access the NOVA project in the Supabase Dashboard.
+
+Obtain the PostgreSQL connection details from the project's database connection settings.
+
+Configure the database connection string in the backend's environment variables or local development configuration.
+
+Apply the required Entity Framework Core migrations when initializing or updating the database schema.
+
+Run the backend and verify that it can connect to the Supabase PostgreSQL database.
+
+### Database Security
+
+Keep database credentials and connection strings private.
+
+Never commit production credentials to GitHub.
+
+Use environment variables or hosting-provider secrets to configure database access.
+
+Restrict database access according to the application's security requirements.
+
+Database provider: Supabase PostgreSQL
+ORM: Entity Framework Core
+PostgreSQL provider: Npgsql
+
+---
 ## 🚀 Running the Application Locally
 
 ### Prerequisites
