@@ -12,12 +12,12 @@ The following components are deployed and accessible online.
 
 | Component | Description | Deployment URL |
 |---|---|---|
-| **Frontend Web Application** | React-based tourism platform and dashboard | `https://YOUR-FRONTEND-URL` |
-| **Backend API** | ASP.NET Core REST API | `https://YOUR-BACKEND-URL` |
-| **Swagger API Documentation** | Interactive API documentation and endpoint testing | `https://YOUR-BACKEND-URL/swagger` |
-| **Backend Health Check** | Checks whether the backend API is running | `https://YOUR-BACKEND-URL/health` |
-| **Agentic AI Service** | Four-agent tourism planning subsystem | `https://YOUR-AI-AGENT-URL` |
-| **PostgreSQL Database** | Hosted relational database | Hosted database; connection details are private |
+| **Frontend Web Application** | React-based tourism platform and dashboard | `https://tourism-planner-frontend.onrender.com` |
+| **Backend API** | ASP.NET Core REST API | `https://tourism-planner-api.onrender.com` |
+| **Swagger API Documentation** | Interactive API documentation and endpoint testing | `https://tourism-planner-api.onrender.com/swagger` |
+| **Backend Health Check** | Checks whether the backend API is running | `https://tourism-planner-api.onrender.com/health` |
+| **Agentic AI Service** | Four-agent tourism planning subsystem | `https://nova-agentic-ai-f4im.onrender.com` |
+| **PostgreSQL Database** | Supabase PostgreSQL | Hosted on Supabase; credentials and connection details are kept private |
 | **Flutter Mobile Application** | Android mobile application | See the APK installation instructions below |
 
 > **Note:** Replace the example URLs with the actual URLs from your hosting providers. The health-check URL is valid only if the backend implements that endpoint. Do not expose database credentials or private service configuration.
